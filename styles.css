@@ -1,0 +1,116 @@
+/* Custom styles for Vision for National Statistics — Pakistan */
+
+:root {
+  --primary-color: #1B3A5C;
+  --secondary-color: #2C5F8A;
+  --accent-color: #3D85C6;
+  --light-bg: #f0f4f8;
+}
+
+/* Hero section on index page */
+.hero-banner {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hero-banner h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: white !important;
+}
+
+.hero-banner .subtitle {
+  font-size: 1.15rem;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* Chapter cards on index page */
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.chapter-card {
+  background: white;
+  border: 1px solid #dee2e6;
+  border-left: 4px solid var(--accent-color);
+  border-radius: 6px;
+  padding: 1.2rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.chapter-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.chapter-card h3 {
+  font-size: 1rem;
+  margin: 0 0 0.4rem 0;
+  color: var(--primary-color);
+}
+
+.chapter-card p {
+  font-size: 0.88rem;
+  color: #555;
+  margin: 0;
+}
+
+.chapter-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Section group labels */
+.section-group {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--secondary-color);
+  margin: 2rem 0 0.8rem 0;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+/* Callout boxes */
+.callout-note {
+  border-left-color: var(--accent-color) !important;
+}
+
+/* Key term styling */
+.key-term {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Principle boxes */
+.principle-box {
+  background: var(--light-bg);
+  border-left: 4px solid var(--accent-color);
+  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  border-radius: 0 6px 6px 0;
+}
+
+.principle-box h3 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+/* Body text */
+.content p {
+  line-height: 1.7;
+}
+
+/* Sidebar tweaks */
+.sidebar nav .sidebar-item .sidebar-item-text {
+  font-size: 0.9rem;
+}
