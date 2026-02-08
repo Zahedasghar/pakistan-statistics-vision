@@ -1,0 +1,16 @@
+- source: project
+  quarto-pub:
+    - id: your-site-id
+      url: https://zahid.quarto.pub/national-statistics# Exclude common unnecessary files
+.git/
+.gitignore
+.Rproj.user/
+*.Rproj
+.vscode/
+.DS_Store
+*.tmp
+*.log
+_site/
+.quarto/
+*.qmd~
+*.bak
